@@ -126,14 +126,27 @@ apt-get install libtext-csv-perl
 
 3.) Sample Columns and Data
 
-| Sample Text Column |
-| ------------------ |
-| Select Data 1      |
-| Select Data 2      |
-| Select Data 3      |
+* Pre-defined Select Column in StuffTracker
+
+| Sample Select Column |
+| -------------------- |
+| Select Data 1        |
+| Select Data 2        |
+| Select Data 3        |
+
+* Sample Data in spreadsheet
 
 | Sample Text Column | Sample Date Column | Sample Select Column |
 | ------------------ |:------------------:| --------------------:|
-| Text Data          | 1-Feb-2016         | Select Data 1        |
+| Text Data - One    | 1-Feb-2016         | Select Data 1        |
+| Text Data - Two    | 1-May-2016         | Select Data 2        |
+| Text Data - Three  | 1-Jul-2016         | Select Data 3        |
 
+* Converted spreadsheet to CSV
 
+```sh
+Sample Text Column,Sample Date Column,Sample Select Column
+Text Data - One,1-Feb-2016,Select Data 1
+Text Data - Two,1-May-2016,Select Data 2
+Text Data - Three,1-Jul-2016,Select Data 3
+```
