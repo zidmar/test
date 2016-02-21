@@ -10,6 +10,7 @@
 
 * [Installation instructions for Debian](#installation)
 * [Production web server installation](#production)
+* [Using the import script](#import)
 
 <a name="installation"/>
 ## Installation instructions for Debian
@@ -119,3 +120,6 @@ apt-get install libtext-csv-perl
 * Currently, it only supports the CSV format.
 * The first line of the file should hold the column names and each name should match an already defined column in StuffTracker.
 * The data fields should match the column type
+  * integer (examples: 200 1,345)
+  * date (examples: 1-Feb-2016)
+  * select (field data should reflect already defined Pulldown entries)
