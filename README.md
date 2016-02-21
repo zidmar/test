@@ -9,10 +9,10 @@
 
 ---
 
-* [Installation instructions for Debian](#Installation)
-* [Production web server installation](#Production)
+* [Installation instructions for Debian](#Installation instructions for Debian)
+* [Production web server installation](#Production web server installation)
 
-## Installation instructions for Debian:
+## Installation instructions for Debian
 
 1.) Install necessary packages as the root user
 
@@ -59,7 +59,7 @@ plackup -p 5000 bin/app.psgi
 
 8.) After verifying the web app loads correctly, stop the test web server with **Ctrl-C**
 
-## Production web server installation:
+## Production web server installation
 
 1.) As root user, install the following packages
 
