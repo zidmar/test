@@ -1,13 +1,12 @@
-# StuffTracker
-
-**Stuff Tracker** is a project that helps small groups to keep track of "stuff" in a central location, instead of using spreadsheets.
-
-
 ---
 
 ##### Due to a recent changes, **StuffTracker** now depends on [UserManager](https://github.com/zidmar/UserManager). Please install and configure [UserManager](https://github.com/zidmar/UserManager) before using **StuffTracker**.
 
 ---
+
+# StuffTracker
+
+**Stuff Tracker** is a project that helps small groups to keep track of "stuff" in a central location, instead of using spreadsheets.
 
 * [Installation instructions for Debian](#installation)
 * [Production web server installation](#production)
