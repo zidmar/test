@@ -137,7 +137,7 @@ apt-get install libtext-csv-perl
 * Sample Data in spreadsheet
 
 | Sample Text Column | Sample Date Column | Sample Select Column |
-| ------------------ |:------------------:| --------------------:|
+| ------------------ | :----------------: | -------------------- |
 | Text Data - One    | 1-Feb-2016         | Select Data 1        |
 | Text Data - Two    | 1-May-2016         | Select Data 2        |
 | Text Data - Three  | 1-Jul-2016         | Select Data 3        |
@@ -149,4 +149,12 @@ Sample Text Column,Sample Date Column,Sample Select Column
 Text Data - One,1-Feb-2016,Select Data 1
 Text Data - Two,1-May-2016,Select Data 2
 Text Data - Three,1-Jul-2016,Select Data 3
+```
+
+4.) Run script with CSV file as argument
+
+```sh
+cd /home/starman/StuffTracker/scripts
+
+perl csv_import.pl /path/to/file.csv
 ```
