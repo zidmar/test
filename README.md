@@ -104,3 +104,18 @@ ln -s /home/starman/StuffTracker/scripts/debian/startup.pl /etc/rc6.d/K20StuffTr
 ```
 
 6.) Access the website, using the production server, on http://localhost/StuffTracker
+
+<a name="import"/>
+## Using the import script
+
+1.) As root user, install the following package
+
+```sh
+apt-get install libtext-csv-perl
+```
+
+2.) Script currently has the following limitations:
+
+* Currently, it only supports the CSV format.
+* The first line of the file should hold the column names and each name should match an already defined column in StuffTracker.
+* The data fields should match the column type
