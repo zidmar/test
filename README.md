@@ -115,11 +115,25 @@ ln -s /home/starman/StuffTracker/scripts/debian/startup.pl /etc/rc6.d/K20StuffTr
 apt-get install libtext-csv-perl
 ```
 
-2.) Script currently has the following limitations:
+2.) The script currently has limitations and data normalization/standarization should be done to the file before using script
 
-* Currently, it only supports the CSV format.
+* Only supports the CSV format.
 * The first line of the file should hold the column names and each name should match an already defined column in StuffTracker.
 * The data fields should match the column type
   * integer (examples: 200 1,345)
   * date (examples: 1-Feb-2016)
   * select (field data should reflect already defined Pulldown entries)
+
+3.) Sample Columns and Data
+
+| Sample Text Column |
+| ------------------ |
+| Select Data 1      |
+| Select Data 2      |
+| Select Data 3      |
+
+| Sample Text Column | Sample Date Column | Sample Select Column |
+| ------------------ |:------------------:| --------------------:|
+| Text Data          | 1-Feb-2016         | Select Data 1        |
+
+
